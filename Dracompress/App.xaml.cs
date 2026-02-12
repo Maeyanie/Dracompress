@@ -16,7 +16,7 @@ namespace Dracompress
     {
         private const string LightTheme = "Themes/Light.xaml";
         private const string DarkTheme = "Themes/Dark.xaml";
-        private string _currentTheme = null;
+        private string? _currentTheme = null;
 
         protected override void OnStartup(StartupEventArgs e)
         {
